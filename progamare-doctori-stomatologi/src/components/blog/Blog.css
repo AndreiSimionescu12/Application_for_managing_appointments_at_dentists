@@ -1,0 +1,55 @@
+
+img {
+    max-width: 100%;
+  }
+  
+  
+  .about-container .aboutlefft {
+    padding: 30px;
+  }
+  .about-container .aboutlefft h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .about-container .aboutlefft p {
+    margin-bottom: 20px;
+  }
+  .about-container .aboutlefft ul li {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .about-container .aboutlefft ul li i {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  /* ===================================== Blog CSS ================================== */
+  .blog {
+    padding: 50px;
+    background-color: #fff;
+  }
+  @media screen and (max-width: 940px) {
+    .blog {
+      padding: 30px 10px;
+    }
+  }
+  .blog .blog-row {
+    margin-top: 20px;
+  }
+  .blog .blog-row .blogcol {
+    margin-bottom: 30px;
+  }
+  .blog .blog-row .blogcol img {
+    margin-bottom: 10px;
+  }
+  .blog .blog-row .blogcol span {
+    font-size: 0.8rem;
+  }
+  .blog .blog-row .blogcol h4 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 26px;
+  }
+  
+  

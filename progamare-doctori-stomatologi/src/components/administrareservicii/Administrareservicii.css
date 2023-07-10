@@ -1,0 +1,19 @@
+/* .pagina-administrare-servicii
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+.btn-servicii
+{
+    margin-top: 10px;
+    background-color: blue;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+}

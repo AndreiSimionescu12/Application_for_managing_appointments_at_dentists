@@ -1,0 +1,34 @@
+.interval-orar
+{
+    width: 40px;
+    min-height: 25px;
+}
+
+.interval-orar
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buton-programare
+{
+    background-color: #009999;
+    margin-top: 0;
+    margin-left: 90px;
+}
+
+#buton-timp
+{
+    width: 60px;
+    height: 25px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: #009999;
+    border: 1px solid #009999;
+}

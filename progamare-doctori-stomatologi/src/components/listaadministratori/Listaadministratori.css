@@ -1,0 +1,17 @@
+.pagina-admini
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout-admini
+{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

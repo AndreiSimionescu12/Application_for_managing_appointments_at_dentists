@@ -1,0 +1,97 @@
+.pagina-medic
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #009999;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-medic-pagina
+{
+    width: 100%;
+    height: 30%;
+}
+
+.layout-pagina-medic
+{
+    margin-top: 80px;
+    width: 100%;
+    height: 70%;
+}
+
+
+img {
+    max-width: 100%;
+  }
+  
+  
+  .about-container .aboutlefft {
+    padding: 30px;
+  }
+  .about-container .aboutlefft h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    /* color: #fff !important; */
+  }
+  .about-container .aboutlefft p {
+    margin-bottom: 20px;
+    /* color: #fff !important; */
+  }
+  .about-container .aboutlefft ul li {
+    padding: 10px;
+    font-size: 1.2rem;
+    /* color: #fff !important; */
+  }
+  .about-container .aboutlefft ul li i {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  /* ===================================== Blog CSS ================================== */
+  .blog {
+    padding: 50px;
+    background-color: #fff;
+  }
+  @media screen and (max-width: 940px) {
+    .blog {
+      padding: 30px 10px;
+    }
+  }
+  .blog .blog-row {
+    margin-top: 20px;
+  }
+  .blog .blog-row .blogcol {
+    margin-bottom: 30px;
+  }
+  .blog .blog-row .blogcol img {
+    margin-bottom: 10px;
+  }
+  .blog .blog-row .blogcol span {
+    font-size: 0.8rem;
+  }
+  .blog .blog-row .blogcol h4 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 26px;
+  }
+
+  .buton-programare
+  {
+    width: 100px;
+    height: 35px;
+    background: rgb(209, 80, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 16px;
+    color: #fff;
+    margin-top: 30px;
+    font-size: 10px;
+  }
+
+  .buton-programare:hover
+  {
+    background-color: #884b05;
+  }
+  
+  

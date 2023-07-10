@@ -1,0 +1,150 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.pagina-programare
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.navbar-pagina-programare
+{
+    width: 100%;
+    height: 30%;
+}
+
+.pagina-programare-content
+{
+    width: 100%;
+    height: 500px;
+}
+
+.container-programare
+{
+    width: 350px;
+    height:610px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    margin-left: 10%;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titlu-doctor
+{
+    font-size: 12px;
+    color: #606060;
+    font-weight: bolder;
+}
+
+.selector-programare
+{
+    width:100%;
+    height: 30px;
+    border-radius:13px;
+    background-color:white; 
+    border:1px solid gray;
+    margin-bottom: 10px;
+    width: 100%;
+    text-indent: 10px;
+    margin-left: 0px;
+    margin-top:5px;
+}
+
+.banner-container-programare
+{
+    width: 100%;
+    height: 6%;
+    background-color: #009999;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-indent: 25px;
+}
+
+.choose
+{
+    margin-top: 10px;
+}
+
+.content-container-programare
+{
+    width: 85%;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.banner-container-programare .titlu
+{
+    color: blanchedalmond;
+    font-size: 15px;
+}
+
+.pagina-programare-body
+{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.img_programare
+{
+    width: 100%;
+    height: 100%;
+}
+
+.interval-orar
+{
+    width: 40px;
+    min-height: 25px;
+}
+
+.interval-orar
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buton-timp
+{
+    width: 60px;
+    height: 15px;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: #009999;
+    border: 1px solid #009999;
+}
+
+/* pentru calendar */
+.react-calendar {
+    height: 260px; /* Schimbă această valoare cu înălțimea dorită */
+  }
+
+
+/* pentru calendar */
+

@@ -1,0 +1,115 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+.container-pret-serviciu
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    margin-left: 100px;
+}
+
+.container-pret-serviciu .card
+{
+    position: relative;
+    width: 320px;
+    height: 440px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+    inset -5px -5px 5px rgba(255,255,255,0.5),
+    5px 5px 5px rgba(0,0,0,0.05),
+    -5px -5px 5px rgba(255,255,255,0.5);
+    border-radius: 15px;
+    margin: 30px;
+    background-color: #ebf5fc;
+}
+
+.container-pret-serviciu .card .box
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    /* background: linear-gradient(45deg,#66b2ff,#3399ff); */
+    background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transition: 0.5s;
+    
+}
+
+.container-pret-serviciu .card:hover .box
+{
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    /* background: linear-gradient(45deg,#66b2ff,#3399ff); */
+    background-color: #fff;
+}
+
+
+.container-pret-serviciu .card .box .content
+{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.img-serviciu
+{
+    border-radius:80px; 
+    height:100px;
+    width:100px;
+    margin-bottom: 10px;
+}
+
+.container-pret-serviciu .card .box .content h3
+
+.container-pret-serviciu .card .box .content h3
+{
+ font-size: 0.9em;
+}
+.container-pret-serviciu .card .box .content h3
+{
+    font-size: 1em;
+    color: black;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container-pret-serviciu .card .box .content p
+{
+    font-size: 1em;
+    font-weight: 300;
+    color: black;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+    
+.container-pret-serviciu .card .box .content a
+{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    background: #009999;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    box-shadow:  0 10px 20px rgba(0,0,0,0.2);
+}
+
+
